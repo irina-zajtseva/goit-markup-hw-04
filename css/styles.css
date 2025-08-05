@@ -149,7 +149,7 @@ a {
 }
 
 .hero {
-  min-width: 1440px;
+  max-width: 1440px;
   padding: 188px 0;
   margin: 0 auto;
   background: #2e2f42;
@@ -474,16 +474,16 @@ a {
   max-width: 264px;
 }
 
-.social-links-list {
+.footer-links-list {
   display: flex;
   gap: 16px;
 }
 
-.social-link:hover {
+.footer-link:hover {
   background-color: #31d0aa;
 }
 
-.social-link:focus {
+.footer-link:focus {
   background-color: #31d0aa;
 }
 
@@ -500,6 +500,6 @@ a {
   margin-right: 120px;
 }
 
-.social-link {
+.footer-link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
