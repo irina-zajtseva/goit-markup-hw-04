@@ -146,6 +146,7 @@ a {
 /* Hero section */
 .hero-container {
   text-align: center;
+  max-width: 1440px;
 }
 
 .hero {
@@ -159,7 +160,6 @@ a {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office\ 1.jpg);
-  max-width: 1440px;
 }
 
 .hero-title {
